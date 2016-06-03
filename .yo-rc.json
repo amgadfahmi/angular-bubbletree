@@ -1,0 +1,35 @@
+{
+  "generator-angular-package": {
+    "props": {
+      "moduleName": "angular-bubbletree",
+      "description": "Angular bubble tree chart using d3",
+      "gitUrl": "http://amgadfahmi.git",
+      "keywords": "[\"d3\",\"angular\",\"chart\",\"responsive\",\"related\",\"bubble\"]",
+      "license": "MIT",
+      "author": {
+        "name": "Amgad Fahmi",
+        "email": "amgadnady@gmail.com"
+      },
+      "yourModule": {
+        "original": "angular-bubbletree",
+        "camelized": "angularBubbletree",
+        "dasherized": "angular-bubbletree",
+        "slugified": "angular-bubbletree",
+        "parts": [
+          "angular",
+          "bubbletree"
+        ]
+      },
+      "includeModuleDirectives": true,
+      "includeModuleFilters": true,
+      "includeModuleServices": true,
+      "includeModuleControllers": true,
+      "includeAngularModuleResource": false,
+      "includeAngularModuleCookies": false,
+      "includeAngularModuleSanitize": false,
+      "moduleDirectory": "modules/angular-bubbletree",
+      "moduleUnitTestDirectory": "test/unit/angular-bubbletree",
+      "moduleUnitE2eDirectory": "test/e2e/angular-bubbletree"
+    }
+  }
+}

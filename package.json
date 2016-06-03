@@ -1,0 +1,65 @@
+{
+  "name": "angular-bubbletree",
+  "version": "0.1.0",
+  "description": "Angular bubble tree chart using d3",
+  "keywords": [
+    "d3",
+    "angular",
+    "chart",
+    "responsive",
+    "related",
+    "bubble"
+  ],
+  "author": {
+    "name": "Amgad Fahmi",
+    "email": "amgadnady@gmail.com"
+  },
+   "scripts": {
+    "ci": "gulp test-src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amgadfahmi/angular-bubbletree.git"
+  },
+  "license": "ALv2",
+  "dependencies": {
+   "d3": "^3.5.17"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "event-stream": "^3.3.2",
+    "gulp": "^3.8.7",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-concat": "^2.3.4",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-scss": "^1.3.15",
+    "gulp-uglify": "^1.5.3",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chai-jquery": "^1.0.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-jquery": "^0.1.0",
+    "karma-mocha": "^1.0.1",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sinon-chai": "^1.2.0",
+    "karma-spec-reporter": "^0.0.26",
+    "mocha": "^2.5.3",
+    "ng-html2js": "^2.0.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "run-sequence": "^1.0.2",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

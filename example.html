@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<title>Angular Bubble Tree</title>
+  <link rel="stylesheet" href="dist/angular-bubbletree.css">
+  <script src="./bower/d3/d3.min.js"></script>
+  <script src="./bower/angular/angular.js"></script>
+  <script src="./dist/angular-bubbletree.min.js"></script>
+  <script>
+  angular.module("app", ['angular-bubbletree'])
+  .run(function($rootScope) {
+    $rootScope.something = 'value'
+  }).controller('testCtrl' , function($http, $scope){
+      $scope.chart = {};
+       
+      
+        $scope.click = function() {
+           $http.get('data.json').then(function(result) {
+                var data = result.data;
+                $scope.chart.bind(data);
+            });
+
+        };
+  })
+  </script>
+</head>
+<body>
+<div class="svg-container" ng-controller="testCtrl">
+
+
+<h1>Angular Bubble Tree</h1>
+
+
+Click the following button to lead the data from data.json and bind the chart  <button type="button" class="btn btn-primary" ng-click="click()">Load</button><br>
+If you are facing an issues or have an enquiry, please submit a case on ithub issue <a href="https://github.com/amgadfahmi/angular-bubbletree/issues" target="_blank">here</a>
+
+
+<bubbletree id="testChart" 
+    control="chart"  
+    link-distance='100' 
+    fill-style='solid' 
+    parent-color='steelblue'
+    child-color='lightgray'
+    collapsed-color='#ffdd99'
+    link-color='#9ecae1'
+    enable-tooltip="true" 
+    text-x="1.45em"
+    text-y="3.45em"
+    scale-score="10">
+    </bubbletree>
+  </div>
+</body>
+</html>

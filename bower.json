@@ -1,0 +1,45 @@
+{
+  "name": "angular-bubbletree",
+  "version": "0.1.0",
+  "description": "Angular bubble tree chart using d3",
+  "keywords": [
+    "d3",
+    "angular",
+    "chart",
+    "responsive",
+    "related",
+    "bubble"
+  ],
+  "authors": [
+    {
+      "name": "Amgad Fahmi",
+      "email": "amgadnady@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amgadfahmi/angular-bubbletree.git"
+  },
+  "license": "ALv2",
+  "main": [
+    "dist/angular-bubbletree.js",
+    "dist/angular-bubbletree.css"
+  ],
+  "ignore": [
+    "*.*",
+    "bower",
+    "modules",
+    "node_modules",
+    "src",
+    "test"
+  ],
+  "dependencies": {
+   "d3": "^3.5.17"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=1.2.0",
+    "angular-scenario": ">=1.2.0",
+    "angular": ">=1.2.0",
+    "d3": "^3.5.17"
+  }
+}

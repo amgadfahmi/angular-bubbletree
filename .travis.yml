@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+- '4'
+before_install: 
+- npm install -g gulp gulp-cli bower
+- bower install
+script: npm run ci

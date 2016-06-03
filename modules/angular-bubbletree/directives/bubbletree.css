@@ -1,0 +1,45 @@
+.svg-container {
+  /*border: 4px solid red;*/
+  width: 99%;
+  height: 600px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+
+
+.btNode circle {
+  cursor: pointer;
+  stroke: #3182bd;
+  stroke-width: 1.5px;
+}
+
+.btNode text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-anchor: middle;
+}
+
+.btLink {
+  fill: none;
+  stroke: #9ecae1;
+  stroke-width: 1.5px;
+}
+
+div.btTooltip { 
+    position: absolute;     
+    text-align: center;
+    vertical-align: middle;   
+    width: 100px;          
+    height: 38px;         
+    padding: 2px;       
+    font: 11px sans-serif;  
+    color: #153851;  
+    background: lightsteelblue; 
+    border-radius: 8px;     
+    pointer-events: none; 
+    border-style: solid;
+    border-color: #8cb3d9; 
+    border-width: 0.01em; 
+    box-shadow: 2px 2px 5px #888888;  
+}

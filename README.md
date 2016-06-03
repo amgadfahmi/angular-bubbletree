@@ -1,5 +1,5 @@
 # angular-bubbletree 
-Master 0.1.0: [![Build Status](https://travis-ci.org/amgadfahmi/angular-bubbletree.svg?branch=master)](https://travis-ci.org/amgadfahmi/js-binarysearch)&nbsp; Development 0.1.0: [![Build Status](https://travis-ci.org/amgadfahmi/angular-bubbletree.svg?branch=development)](https://travis-ci.org/amgadfahmi/js-binarysearch)&nbsp;[![dependency Status](https://david-dm.org/amgadfahmi/angular-bubbletree.svg)](https://david-dm.org/amgadfahmi/angular-bubbletree)
+Master 0.1.0: [![Master Status](https://travis-ci.org/amgadfahmi/angular-bubbletree.svg?branch=master)](https://travis-ci.org/amgadfahmi/js-binarysearch)&nbsp; Development 0.1.0: [![Development Status](https://travis-ci.org/amgadfahmi/angular-bubbletree.svg?branch=development)](https://travis-ci.org/amgadfahmi/js-binarysearch)&nbsp;[![Dependency Status](https://david-dm.org/amgadfahmi/angular-bubbletree.svg)](https://david-dm.org/amgadfahmi/angular-bubbletree)
 
 ![angular d3 chart bubble tree](https://amgadfahmi.files.wordpress.com/2016/06/angular-bubbletree-chart.png "angular d3 chart bubble tree")
 

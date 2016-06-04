@@ -66,6 +66,34 @@ text-y          optional    3.45em      determine the y coordinates of the node 
 scale-score     optional    10          determine the scaling factor for node sizes(1 too small - 30 is big) 
 ```
 
+## Data Structure 
+Its important to understand the data structure it will be passed to the component, each node is waiting for name & size. The parent node will hold a children value which is array of name & values
+
+```sh
+{
+    "name": "Root node",
+    "children": [{
+        "name": "analytics",
+        "children": [{
+            "name": "cluster",
+            "children": [{
+                "name": "Merge Edge",
+                "size": 700
+            }]
+        }, {
+            "name": "graph",
+            "children": [{
+                "name": "Betweenness Centrality",
+                "size": 3534
+            }, {
+                "name": "Spanning Tree",
+                "size": 5416
+            }]
+        }]
+    }]
+}
+```
+
 ## Extra info
 
 ![angular d3 chart bubble tree](https://amgadfahmi.files.wordpress.com/2016/06/angular-bubbletree-chart2.png "angular d3 chart bubble tree")
